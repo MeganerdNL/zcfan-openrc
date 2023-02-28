@@ -3,7 +3,7 @@ OpenRC init file for zcfan
 
 This is an OpenRC init file for [zcfan](https://github.com/cdown/zcfan).
 
-Prerequisite
+Prerequisites:
 - A ThinkPad with fancontrol enabled in thinkpad_acpi module. See *Installation* at [zfscan](https://github.com/cdown/zcfan#Installation).
 
 Dependencies:
