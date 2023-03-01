@@ -8,7 +8,7 @@ OpenRC init file for [zcfan](https://github.com/cdown/zcfan).
 
 ## Install:
 - Place the file *zcfan* in */etc/init.d* and make it executeable:  `chmod +x zcfan`.
-- *Optionally* create a file */etc/zcfan.conf* with your temp values like below:
+- *Optionally* create a file */etc/zcfan.conf* with your temperature values (in °C) for low, medium and maximum fan speed:
 ```
 max_temp 90
 med_temp 80
