@@ -5,7 +5,6 @@
 description="zcfan - Zero-configuration fan control daemon for ThinkPads"
 supervisor="supervise-daemon"
 command="/usr/bin/zcfan"
-command_background=true
 
 depend() {
     after modules
