@@ -17,5 +17,5 @@ low_temp 70
 - Add the service to default runlevel with `rc-update add zcfan`
 - Start the service with `rc-service zcfan start`
 
-## Further documentation
+## Further documentation:
 See [zcfan](https://github.com/cdown/zcfan).
