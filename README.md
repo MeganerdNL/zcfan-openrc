@@ -1,12 +1,10 @@
 # zcfan-openrc
 OpenRC init file for [zcfan](https://github.com/cdown/zcfan).
 
-## Prerequisites:
+## Prerequisites / Dependencies:
 - A ThinkPad running linux and OpenRC as init system.
 - Fancontrol enabled in thinkpad_acpi module. See *Installation* at [zfscan](https://github.com/cdown/zcfan#Installation).
-
-## Dependencies:
-- [zcfan](https://github.com/cdown/zcfan) - You can install it [from the AUR](https://aur.archlinux.org/packages/zcfan) if you use (an) Arch (based) distro.
+- [zcfan](https://github.com/cdown/zcfan) installed - You can install it [from the AUR](https://aur.archlinux.org/packages/zcfan) if you use (an) Arch (based) distro.
 
 ## Install:
 - Place the file *zcfan* in */etc/init.d* and make it executeable:  `chmod +x zcfan`.
