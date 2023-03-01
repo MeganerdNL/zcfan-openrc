@@ -7,7 +7,7 @@ OpenRC init file for [zcfan](https://github.com/cdown/zcfan).
 - [zcfan](https://github.com/cdown/zcfan) installed - You can install it [from the AUR](https://aur.archlinux.org/packages/zcfan) if you use (an) Arch (based) distro.
 
 ## Installation:
-- Place the file *zcfan* in */etc/init.d* and make it executeable:  `chmod +x zcfan`.
+- Place the file *zcfan* from this repository in */etc/init.d* and make it executeable:  `chmod +x zcfan`.
 - *Optionally* create a file */etc/zcfan.conf* with your temperature values (in °C) for low, medium and maximum fan speed:
 ```
 max_temp 90
