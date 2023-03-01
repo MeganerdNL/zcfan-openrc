@@ -18,4 +18,4 @@ low_temp 70
 - Start the service with `rc-service zcfan start`
 
 ## Further documentation
-- See [zcfan](https://github.com/cdown/zcfan).
+See [zcfan](https://github.com/cdown/zcfan).
