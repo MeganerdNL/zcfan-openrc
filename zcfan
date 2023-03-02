@@ -9,12 +9,3 @@ command="/usr/bin/zcfan"
 depend() {
     after modules
 }
-
-start_pre() {
-        if [ $(/usr/bin/cat /sys/module/thinkpad_acpi/parameters/fan_control) = N ] ; then
-                eerror "Error: Fan control is off in module thinkpad_acpi or this is no ThinkPad."
-                eerror "See documentation of zcfan how to enable fan control."
-                eerror "zcfan will start and immediately exit without further error (if installed)."
-        fi
-        return 0
-}
