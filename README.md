@@ -7,7 +7,7 @@ OpenRC init file for [zcfan](https://github.com/cdown/zcfan).
 - [zcfan](https://github.com/cdown/zcfan) installed - You can install it [from the AUR](https://aur.archlinux.org/packages/zcfan) if you use (an) Arch (based distribution).
 
 ## Installation:
-#### From [AUR](https://aur.archlinux.org/packages/zcfan-openrc)
+#### From the [AUR](https://aur.archlinux.org/packages/zcfan-openrc)
 - `yay -S zcfan-openrc` - or with your own favorite AUR helper.
 - Add the service to default runlevel with `rc-update add zcfan`
 - Start the service with `rc-service zcfan start`
