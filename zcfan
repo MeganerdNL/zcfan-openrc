@@ -6,14 +6,7 @@ description="zcfan - Zero-configuration fan control daemon for ThinkPads"
 supervisor="supervise-daemon"
 command="/usr/bin/zcfan"
 pidfile="/run/supervise-${RC_SVCNAME}.pid"
-extra_started_commands="reload"
 
 depend() {
     after modules
-}
-
-reload() {
-        ebegin "Reloading ${SVCNAME}"
-        start-stop-daemon --signal HUP --pidfile "${pidfile}"
-        eend $?
 }
